@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Elearning-EDECS/static/css/main.5236e172.css",
+    "main.js": "/Elearning-EDECS/static/js/main.8609621e.js",
+    "static/js/453.ed3810f9.chunk.js": "/Elearning-EDECS/static/js/453.ed3810f9.chunk.js",
+    "index.html": "/Elearning-EDECS/index.html",
+    "main.5236e172.css.map": "/Elearning-EDECS/static/css/main.5236e172.css.map",
+    "main.8609621e.js.map": "/Elearning-EDECS/static/js/main.8609621e.js.map",
+    "453.ed3810f9.chunk.js.map": "/Elearning-EDECS/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5236e172.css",
+    "static/js/main.8609621e.js"
+  ]
+}
