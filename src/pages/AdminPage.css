@@ -1,0 +1,65 @@
+/* Admin Page Styles */
+
+.admin-page {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* إدارة المستخدمين */
+.admin-page ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.admin-page li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* تباعد بين العناصر داخل السطر الواحد */
+.admin-page li > * {
+  margin-right: 15px;
+}
+
+/* تحديد عرض متساوٍ لكل قسم */
+.admin-page li > div {
+  flex: 1;
+}
+
+.admin-page input[type="radio"],
+.admin-page input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+/* قسم إدارة الدورات */
+.admin-page .course-assign {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.admin-page .course-assign label {
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+/* أزرار التحكم */
+.admin-page button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.admin-page button:hover {
+  background-color: #0056b3;
+}

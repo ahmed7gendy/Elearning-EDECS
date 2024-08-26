@@ -1,0 +1,44 @@
+/* src/components/Navbar.css */
+.navbar {
+  background-color: #007bff; /* اللون الأساسي للـ Navbar */
+  padding: 10px 20px; /* المسافة حول محتوى الـ Navbar */
+  position: sticky; /* لتثبيت الـ Navbar في أعلى الصفحة */
+  top: 0;
+  width: 100%; /* ليأخذ الـ Navbar العرض الكامل */
+  z-index: 1000; /* للتأكد من أنه فوق العناصر الأخرى */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* ظل خفيف للـ Navbar */
+  box-sizing: border-box; /* يشمل الـ padding و border ضمن العرض الكلي */
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex; /* لعرض العناصر بشكل أفقي */
+  justify-content: center; /* لتوسيط العناصر بشكل أفقي */
+  align-items: center; /* لتوسيط العناصر عموديًا */
+  max-width: 1200px; /* أقصى عرض للـ Navbar */
+  margin: 0 auto; /* توسيط الـ Navbar */
+}
+
+.navbar li {
+  margin: 0;
+}
+
+.navbar a {
+  color: #fff; /* لون النص */
+  text-decoration: none; /* إزالة التسطير من الروابط */
+  padding: 10px 20px; /* المسافة حول النص */
+  font-size: 16px; /* حجم الخط */
+  font-weight: 500; /* سمك الخط */
+  transition: background-color 0.3s ease, color 0.3s ease; /* تأثيرات التمرير */
+}
+
+.navbar a:hover {
+  background-color: #0056b3; /* لون الخلفية عند التمرير */
+  border-radius: 5px; /* تقويس الزوايا */
+}
+
+.navbar a:active {
+  color: #cce7ff; /* لون النص عند النقر */
+}

@@ -1,0 +1,66 @@
+/* src/pages/WelcomePage.css */
+.welcome-page {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 40px;
+  background-color: #f4f4f9;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.welcome-page h1 {
+  color: #2c3e50;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.welcome-page h2 {
+  color: #34495e;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.welcome-page ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  max-width: 600px;
+  margin-top: 20px;
+}
+
+.welcome-page li {
+  padding: 15px 20px;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.welcome-page li:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.welcome-page li:last-child {
+  margin-bottom: 0;
+}
+
+.welcome-page a {
+  text-decoration: none;
+  color: #2980b9;
+  font-weight: 500;
+}
+
+.welcome-page a:hover {
+  color: #1a5276;
+}
+
+.welcome-page .error-message {
+  color: #e74c3c;
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: 18px;
+}
